@@ -1,0 +1,27 @@
+body{margin: opx;
+padding: 0px;}
+#contenu{
+        max-width: 1200px;
+        width: 80%;
+        margin: auto;
+        height: 800px;}
+        a
+        {
+            background-color: aqua;
+        }
+        h2
+        {
+           color: blue;
+           text-decoration: underline;
+        }
+        .title-style
+        {
+            padding-top: 50px;
+            
+        }
+        #entete
+{
+    height: 25%;
+    background-image: url(game.jpg)
+    
+}

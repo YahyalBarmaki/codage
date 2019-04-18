@@ -1,0 +1,185 @@
+body
+{   
+    
+    border: 0;
+    background-color: rgb(124, 120, 120);
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+#contenu
+{
+    background-color: rgb(245, 246, 248);
+    width: 90%;
+    margin: auto;
+    padding: auto;
+    max-width: 1200px;
+    border: 4px rgb(231, 16, 16) solid;
+
+}
+/*En tete*/
+#entete
+{
+    background-color: rgb(5, 5, 5);
+    width: 100%;
+    height: 60px;
+    color: white;
+}
+#map
+{
+    position: relative;
+    right: -10%;
+    top: -160px;
+}
+#imgtel
+{
+    position: relative;
+    right: -30%;
+    top: 19px;
+}
+#ptel
+{
+    position: relative;
+    right: -32.5%;
+    top: -21px;
+}
+#imgcontact
+{
+    position: relative;
+    right: -46.2%;
+    top: -64px;
+}
+#pcontact
+{
+    position: relative;
+    right: -49%;
+    top: -106px;
+}
+#langue
+{
+    position: relative;
+    right: -68%;
+    top: -142px;
+    border:  none;
+    background-color: black;
+    color: #fff;
+}
+#bouton
+{
+    position: relative;
+    right: -69%;
+    top: -142px;
+    border:  none;
+    background-color: red;
+    color: #fff;
+    height: 25px;
+}
+/*-----------------------Navigation-----------------------*/
+nav
+{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+ul
+{
+    list-style-type: none;
+}
+li
+{
+    display: inline-block;
+    position: relative;
+    right: -18%;
+    top: -55px;
+    width: 12%;
+    
+}
+.border_right
+{
+    border-right: 2px solid rgb(207, 207, 207);
+    line-height: 30px;
+    text-align: center;
+   
+}
+#border_right_last
+{
+       
+}
+a
+{
+    text-decoration: none;
+    color: #000;
+}
+a:hover 
+{
+    text-decoration: underline;
+    color: #F9A001;
+    background-color: #1B8D9A;
+    
+}
+/*----------------------------------CORPS---------------------------------------------*/
+#landing
+{
+    height: 350px;
+}
+/*------------------------------------FOOTEER-------------------------------------------*/
+footer
+{
+    background-color:  #000;
+}
+#rs
+{
+    position: relative;
+    width: 16%;
+    text-align: center;
+    right: -5%;
+    bottom: -95px;
+    color: #fff
+    
+}
+#NL
+{
+    color: #fff;
+    position: relative;
+    width: 36%;
+    right: -30%;
+    top: -10px;
+    text-align: center;
+    height: 90px;
+}
+#mail
+{
+    border: none;
+    height: 25px;
+}
+#inscri
+{
+    background-color: rgb(224, 50, 50);
+    border: none;
+    color: #fff;
+    height: 27px;
+    position: relative;
+    right: -2%;
+}
+#localisation
+{
+    
+    width: 35%;
+    color: #fff;
+    position: relative;
+    right: -65%;
+    top: -122px;
+    text-align: center;
+}
+#droit_auteur
+{
+    border-top: 1px solid rgb(173, 170, 170);
+    position: relative;
+    top: -60px;
+    color: #fff;
+    text-align: center;
+}
+#idcopyright
+{
+    position: relative;
+    bottom: -19px;
+}

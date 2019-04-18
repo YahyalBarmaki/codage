@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exemple de footer en HTML/CSS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+       
+    <div id="contenu">
+        <div id="entete">
+            <div >
+                <img src="phone.png" alt="" id="imgtel" width="25px">
+                <p id="ptel">(221)33-858-65-47</p>
+            </div>
+            <div >
+                <img src="mail.png" alt="" id="imgcontact" width="30px">
+                <p id="pcontact">contact@gmail.com</p>
+            </div>
+            <div id="lanreser">
+                <select name="choix" id="langue">
+                <option value="">French</option>
+                <option value="">English</option>
+            </select>
+
+         
+
+            <button type="button" class="btn btn-danger" id="bouton"><a href="code.html">Réserver</a></button>
+            
+            
+
+
+
+        </div>
+            <div id="map">
+                    <a href=""><img src="map2.png" alt="Localisation" width="30px"></a>
+            </div>
+        </div>
+        <div id="menu">
+           
+            <nav>
+                <div >
+                            <img src="logosahotel.png" id="logo" alt="Logo- SA" width="200px">
+                </div>
+                <ul>
+                    <li class="border_right" id="navmenu"><a href="#">ACCUEIL</a></li>
+                    <li class="border_right" id="navmenu"><a href="">CHAMBRE</a></li>
+                    <li class="border_right" id="navmenu"><a href="services.html">SERVICES</a></li>
+                    <li class="border_right" id="navmenu"><a href="">ENVIRONS</a></li>
+                    <li class="border_right" id="navmenu"><a href="code.html">RÉSERVATION</a></li>
+                    <li id="border_right_last" class="navmenue"><a href="">RENSEIGNEMENT</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- slide -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="Service/slider1.jpg" alt="1er slide"  height="400px">
+                <div class="carousel-caption d-none d-md-block resto" >
+                    <h5>Restaurant</h5>   
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="Service/slider2.jpg" alt="2ém slide"  height="400px">
+                <div class="carousel-caption d-none d-md-block resto">
+                    <h5>Chambre connéctée</h5>   
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="Service/slider3.jpg" alt="3ém slide"  height="400px">
+                <div class="carousel-caption d-none d-md-block resto">
+                    <h5>Chambre gaming</h5>   
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="Service/slider4.jpg" alt="4ém slide"  height="400px">
+                <div class="carousel-caption d-none d-md-block resto">
+                    <h5>Chambre de luxe</h5>
+                  </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev dgauche" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next  ddroite" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <div id="bcform">
+                    <h6 id="duh6">Du</h6>
+                    <input type="date" placeholder="Du" id="iptAu">
+                    <h6 id="auh6">Au</h6>
+                    <input type="date" placeholder="Au" id="iptDu">
+
+
+                <select name="book_room_category_1" id="type">
+                    <option value="simple">simple</option>
+                    <option value="double">double</option>
+                    <option value="triple">triple</option>
+                </select>
+                <select name="book_room_category_0" id="categorie">
+                    <option value="RO">chambre connecté</option>
+                    <option value="HB">chambre de luxe</option>
+                    <option value="FB">chambre gaming</option>
+                </select>
+                <button id="formreserv"> <a href="code.html">Recherhe</a></button>
+            </div>
+            <div id="sah">
+                <h4>SA HOTEL</h4>
+                <img src="Service/hotel.jpg" alt="" width="200px">
+                <p>
+                    En plein cœur du centre ville, l'Hôtel Farid vous propose des services
+                     de qualité pour vos réunions d'affaires, séjours et vacances à Dakar. 
+                </p>
+            </div>
+            <div id="sas">
+                <h4>Les services de hotel</h4>
+                <p id="psas">
+                   <img src="Service/fleche.png" alt="" width="15px"> Réception 24/7<br><br>
+                   <img src="Service/fleche.png" alt="" width="15px"> wifi gratuit<br><br>
+                   <img src="Service/fleche.png" alt="" width="15px"> Restaurant & Bar <br><br>
+                   <img src="Service/fleche.png" alt="" width="15px"> Blanchisserie <br><br>
+                    <a href="services.html">En savoir plus</a>
+                </p>
+            </div>
+            <div id="sares">
+                <h4>Restaurant SA</h4>
+                <img src="Service/resto.jpg" alt="Restaurant" width="200px">
+                <p>
+                    Le restaurant Farid se veut être un oasis en plein cœur de Dakar où une grande salle à manger 
+                    climatisée s'ouvre sur une terrasse pour que le plaisir des yeux rejoigne celui des saveurs. 
+                    L'excellence reconnue dans l'art culinaire libanais et des cuisines du monde. 
+                </p>
+            </div>
+
+
+          
+        
+            
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body> 
+<!-- footer -->
+<footer>
+    <div id="rs">
+        <p>Réseaux sociaux</p>
+        <a href="http://www.facebook.com"><img src="facebook2.png" alt="Tweeter" width="45px"></a>
+        <a href="http://www.twitter.com"><img src="twitter2.png" alt="Tweeter" width="50px"></a>
+        <a href="http://www.instagram.com"><img src="instagram2.png" alt="instagram" width="50px"></a>
+    </div>
+<div id="NL">
+    <p>News Letters</p>
+    <form action="">
+        <input type="email" placeholder="Entrer votre mail" id="mail">
+        <button id="inscri"> <a href="">S'inscrire</a></button>
+    </form> 
+</div>
+<div id="localisation">
+    <p>
+        <h6>Localisation</h6>
+        Tel(1): 77-125-12-21 <br>
+        Tel(2): 33-878-00-21 <br>
+        Fax   : 33-858-65-47
+    </p>
+</div>
+<div id="droit_auteur">
+   <p id="idcopyright"> &copy; copyright 2019 SA-Hotel - All right reserved.</p>
+</div>
+</footer>
+</html>

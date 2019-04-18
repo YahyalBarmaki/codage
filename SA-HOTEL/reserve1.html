@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reserve1.css">
+    <title>coordonnees</title>
+</head>
+<body>
+    <div id="contenu">
+            <div id="entete">
+                    <h1 class="title-style"> Réserver <span class="title-block"></span> </h1></div>
+        <form action="reservation.php" method="POST">
+                
+                <div class="infoperso">
+                    <h2>Vos coordonneés</h2>
+                    <p>
+                   <label for="votre prenom">Prenom(*)</label><br> <input type="text" id="prenom" name="prenom"></p>
+               <p><label for="nom">Nom(*)</label> <br> <input type="text" name="nom" id="nom"> </p>
+               <p><label for="email">Email(*)</label><br> <input type="email" name="email" id="email"></p>
+               <p><label for="number">Telephone</label><br> <input type="tel" name="telephone" id="telephone"></p>
+               <p><label for="demande">demande specifique</label> <br>
+                   <textarea name="Demande specifique" id="demande" cols="50" rows="10">
+            
+                   </textarea></p>
+                   <p>(*):champs à renseigner</p>
+                   <a href="projet1.html">Réserver</a>
+               </div>
+            </form>
+        </div>
+</body>
+</html>

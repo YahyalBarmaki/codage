@@ -1,0 +1,51 @@
+#contenu{max-width: 1200px;
+    width: 80%;
+    margin: auto;
+height: 800px;}
+    .infonperso{display: inline;}
+    #calendar{display: inline-block;
+    text-align: center;}
+    .date1{float: left;margin-right: 15px;}
+    .date2{float: right;}
+  .label{float: left; padding: 5px;margin: 10px;}
+  .niveau1{float: left;margin-right: 15px;}
+  .niveau1_0{float: right;}
+  #chambre2_0{
+      display:inline-block;
+    text-align: center;
+}
+.niveau3_1{float: left;margin-right: 15px;}
+.niveau3_2{float: right;}
+#chambre3_0{display: inline-block;
+text-align: center;}
+#chambre1{display: inline-block;
+text-align: center;}
+.niveau1_1{float: left;margin-right: 15px;}
+.niveau1_2{float: right;}
+
+ul{display: inline-block;}
+#entete
+{
+    height: 25%;
+    background-image: url(game.jpg)
+    
+}
+.title-style
+{
+    padding-top: 50px;
+}
+  a
+  {
+      border: 1px solid aqua;
+      background-color: aqua;
+  }
+  #calendar
+  {
+      padding-top: 20px;
+  }
+  
+  
+
+
+
+    
